@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace ALevelBlogProject.Models
 {
-	public class ArticleView : Etity
+	public class ArticleView
 	{
 		[HiddenInput(DisplayValue = false)]
 		public int Id { get; set; }
