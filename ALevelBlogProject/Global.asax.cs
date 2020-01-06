@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ALevelBlogProject.App_Start;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,7 @@ namespace ALevelBlogProject
 			AreaRegistration.RegisterAllAreas();
 			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
+			LightInjectConfig.Configuration();
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 		}
 	}

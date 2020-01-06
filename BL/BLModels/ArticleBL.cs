@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BL.Abstract;
 
 namespace BL.BLModels
 {
-	public class ArticleBL : BLEtity
+	public class ArticleBL
 	{
-		public override int Id { get; set; }
+		public int Id { get; set; }
 		public string Title { get; set; }
 		public string SubTitle { get; set; }
 		public string Body { get; set; }
